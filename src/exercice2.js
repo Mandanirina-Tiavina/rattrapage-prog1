@@ -19,3 +19,11 @@ function Ranger(T) {
         if (T[i] ==1) sortedTab.push(T[i])
     } return sortedTab
 }
+
+function NombreUn(T) {
+    let sortedTab = Ranger(T)
+    let count = 0
+    for (let i = 0; i < sortedTab.length; i++) {
+        if (sortedTab[i] == 1) count++
+    } return count
+}
