@@ -1,4 +1,4 @@
-function NegatifsPositif(tab) {
+function NegatifPositif(tab) {
     let sortedTab = []
     for (i = 0; i < tab.length; i++) {
         if (tab[i] <=0) sortedTab.push(tab[i])
@@ -8,5 +8,3 @@ function NegatifsPositif(tab) {
     }
     return sortedTab
 }
-
-console.log(NegatifsPositif([3, -1, 0, 4, -2, 5, -3]))
