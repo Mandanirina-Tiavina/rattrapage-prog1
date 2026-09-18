@@ -1,0 +1,23 @@
+{
+  "name": "rattrapage-prog1",
+  "version": "1.0.0",
+  "description": "",
+  "homepage": "https://github.com/Mandanirina-Tiavina/rattrapage-prog1#readme",
+  "bugs": {
+    "url": "https://github.com/Mandanirina-Tiavina/rattrapage-prog1/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Mandanirina-Tiavina/rattrapage-prog1.git"
+  },
+  "license": "ISC",
+  "author": "Manda",
+  "type": "commonjs",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  }
+}
